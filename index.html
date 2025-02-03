@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="info">
+            <h1>How to Play? 🤔 </h1>
+            <p>Memorize the sequence displayed in the boxes.
+                <br><br>
+                With each level, the number of boxes to memorize increases. The sequence is randomized in every level, ensuring a different challenge each time.
+                <br><br>
+               <strong><em>Sharpen your memory and conquer the game!</em></strong></p>
+        </div>
+        <div class="container">
+            <h1 class="title">💆‍♀️ Memory Sequence Game 👓</h1>
+            <h1 class="t">💆‍♀️ Memory Sequence <br> Game 👓</h1>
+            <div class="main-box">
+                <button id="one" class="box"></button>
+                <button id="two" class="box"></button>
+                <button id="three" class="box"></button>
+                <button id="four" class="box"></button>
+                <button id="five" class="box"></button>
+                <button id="six" class="box"></button>
+                <button id="seven" class="box"></button>
+                <button id="eight" class="box"></button>
+                <button id="nine" class="box"></button>
+                <button id="ten" class="box"></button>
+                <button id="eleven" class="box"></button>
+                <button id="twelve" class="box"></button>
+                <button id="thirteen" class="box"></button>
+                <button id="fourteen" class="box"></button>
+                <button id="fifteen" class="box"></button>
+                <button id="sixteen" class="box"></button>
+            </div>
+            <div class="start">
+                <button class="start-button">Start Game</button>
+            </div>
+            <div class="popup">
+                <div class="popup-images">
+                    <img src="star-struck.png" alt="">
+                    <button type="button" class="exit-button" onclick="closePopUp()">X</button>
+                </div>
+                <h1 class="popup-title">🎉 Congratulations! 🎉</h1>
+                <h2>You reached</h2>
+                <h3 class="popup-title-h3 level"></h3>
+            </div>
+
+
+        </div>
+
+        <div class="leaderboard">
+            <h1>👏Leaderboard👏</h1>
+
+            <div>
+                <h2>Name</h2>
+                <h2>Highest Level</h2>
+            </div>
+            <ul>
+                <li>rei 11</li>
+                <li>bonnie                  10</li>
+                <li>wangster                9</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
